@@ -28,20 +28,48 @@ footer {
 
 .redBox {
     background-color: #ff1d00;
+    position: absolute;
+    scale: 0.25;
+    top: 5%;
+    left: 19%;
+    z-index: 1;
 }
 
 .yellowBox {
     background-color: #ffeb00;
+    position: absolute;
+    scale: 0.5;
+    top: 8%;
+    left: 22%;
+    z-index: 2; 
 }
 
 .pinkBox {
     background-color: #ff9ecf;
+    position: relative;
+    scale: 1;
+    top: 15%;
+    left: 28%;
+    z-index: 3;
+
 }
 
 .greenBox {
     background-color: #1fd81f;
+    position: relative;
+    translate: 30%;
+    scale: 1.8;
+    top: 14%;
+    left: 35%;
+    z-index: 4;
 }
 
 .blueBox {
     background-color: #0180fc;
+    position: relative;
+    transform-origin: 0 90deg;
+    scale: 2;
+    top: 15%;
+    left: 50%;
+    z-index: 5;
 }
